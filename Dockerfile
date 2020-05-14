@@ -15,4 +15,6 @@ ADD ./carDetection.py /root/
 
 EXPOSE 6379
 
+RUN chmod +x /root/start.sh
+
 CMD ["/root/start.sh"]
